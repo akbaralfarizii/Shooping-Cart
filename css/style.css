@@ -1,0 +1,52 @@
+.red-accent {
+    background-color: #5865F2 !important;
+    border-color: #5865F2 !important;
+}
+
+.red-accent-light {
+    background-color: #fce4ec !important;
+    border-color: #fce4ec !important;
+    color: #5865F2 !important;
+    font-weight: bold !important;
+}
+
+.red-accent-text {
+    color: #5865F2 !important;
+}
+
+.pagination.pg-red-accent .page-item.active .page-link {
+    background-color:#5865F2
+}
+.pagination.pg-red-accent .page-item.active .page-link:hover {
+    background-color:#5865F2
+}
+
+#button-keranjang {
+    filter: brightness(0) invert(1);
+}
+
+#container-user-akses {
+    max-width: 60% !important;
+}
+
+#table-image {
+    max-width: 150px !important;
+}
+
+@media (max-width: 767.98px) {
+    body{
+        font-size: 14px !important;
+    }
+    #container-user-akses {
+        max-width: 80% !important;
+    }
+    .btn {
+        font-size: 12px !important;
+    }
+    .form-control {
+        font-size: 14px !important;
+    }
+    #table-image {
+        max-width: 80px !important;
+    }
+}
